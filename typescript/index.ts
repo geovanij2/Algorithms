@@ -1,7 +1,7 @@
-import insertionSort from "./sorting/insertion-sort";
+import sort from "./sorting/selection-sort";
 
 const list = [5, 3, 4, 1, 2, 6];
 
-const sortedList = insertionSort(list);
+const sortedList = sort(list);
 
 console.log(sortedList);
